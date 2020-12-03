@@ -1,0 +1,42 @@
+.Order{
+    width: 60%;
+    border: 1px solid #c76d18;
+    border-radius: 7px;
+    box-shadow: 0 2px 3px #d87d29;
+    padding: 10px;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+.orderrow{
+    display:inline-block;
+}
+.IndivOrder{
+    width:60px;
+    text-transform: capitalize;
+        display:inline-block;
+        margin: 15px 15px 15px 80px;
+        text-align: center;
+        border: 1px solid #88480b;
+        border-radius: 5px;
+        background-color: #a15712;
+        color: white;
+        padding: 5px;
+}
+.orderamt{
+    display: inline-block;
+    margin-left: 15px;
+}
+@media (max-width: 500px){
+    /* .IndivOrder { */
+        /* display: block; */
+        /* margin: 15px 15px 15px 80px;
+        text-align: center;
+        border: 1px solid #88480b;
+        border-radius: 10px;
+        background-color: #88480b;
+        color: white;
+    } */
+    .Order{
+        width:80%;
+    }
+}
